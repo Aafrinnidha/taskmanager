@@ -3,7 +3,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/tasks";
+const API_URL = "https://task-manager-backend-wj70.onrender.com/tasks";
 const statuses = ["Pending", "Ongoing", "Completed"];
 
 export default function App() {
